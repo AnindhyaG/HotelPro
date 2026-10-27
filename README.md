@@ -1,5 +1,6 @@
 # HotelPro
 
+
 Hotel booking and management system built with the stack from your requirements: **MongoDB, Express, React, Node.js**.
 
 ## Features
@@ -46,3 +47,4 @@ Send `Authorization: Bearer <token>` on protected routes.
 ## Before going live
 - Payments are a **demo**: `/bookings/:id/pay` marks a booking paid without charging anyone. Replace it with Stripe or Razorpay and verify webhooks.
 - Add HTTPS, rate limiting (e.g. express-rate-limit), and `helmet`.
+
